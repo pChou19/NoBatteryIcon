@@ -1,0 +1,10 @@
+Package: com.pchou9.nobatteryicon
+Name: No Battery Icon
+Depends: firmware (>= 7), mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Removes the battery icon in the status bar.
+Maintainer: Patrick Chou
+Author: Patrick Chou
+Homepage: http://www.pChou9.com
+Section: Tweaks

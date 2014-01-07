@@ -1,0 +1,1 @@
+iOS 7 tweak that removes the battery icon in the status bar.
