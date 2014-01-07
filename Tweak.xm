@@ -20,9 +20,7 @@
 
 %hook SBUIController
 - (void)ACPowerChanged {
-	//UIStatusBarBatteryItemView *itemView = MSHookIvar<UIStatusBarBatteryItemView*>(self, "_accessoryView");
-	//[itemView _updateAccessoryImage];
-	//[[%c(UIStatusBarBatteryItemView) sharedInstance] _updateAccessoryImage];
+	// TODO Refresh status bar once device is plugged in/out
 	%orig;
 }
 %end
